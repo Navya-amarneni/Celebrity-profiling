@@ -40,9 +40,9 @@ The following values are possible for each of the traits:
     
    We use 3 models to distinguish the features of the celebrity.Those are
    
-   * *Logistic Regression model
-   * *Naive Bayes model
-   * *LSTM classifier model
+   * Logistic Regression model
+   * Naive Bayes model
+   * LSTM classifier model
   
   we take the accurae one out of these models for  each of the trait prediction.
   
