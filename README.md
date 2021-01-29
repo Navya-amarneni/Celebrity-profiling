@@ -48,6 +48,8 @@ The following values are possible for each of the traits:
 
 And it looks like this:
 
+![Alt text](C:/log.png?raw=true "Title")
+
 
 The logistic function. It outputs numbers between 0 and 1. At input 0, it outputs 0.5.
 
