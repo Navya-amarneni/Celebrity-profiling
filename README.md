@@ -1,6 +1,8 @@
 # Celebrity-profiling
 
-   The Celebrity Profiling task this year is to predict four traits of a celebrity from their social media communication. 
+   The Celebrity Profiling task is to predict four traits of a celebrity from their social media communication.I worked on logistic regression
+model,Naives bayes ,lstm classifier model to classify the celebrities on the basis of following features.
+ 
 
 * degree of fame
 * occupation
@@ -36,7 +38,7 @@ The following values are possible for each of the traits:
     birthyear   := {1940, ..., 2012}
     gender      := {male, female, nonbinary}
     
-   We use 3 methods to distinguish the features
+   We use 3 models to distinguish the features of the celebrity.Those are
    
    *Logistic Regression model
    *Naive Bayes model
@@ -58,7 +60,7 @@ And it looks like this:
 ![Alt text](https://saedsayad.com/images/LogReg_1.png)
 
 
-The logistic function.For classification, we prefer probabilities between 0 and 1, so we wrap the the equation into the logistic function. This forces the output to assume only values between 0 and 1. This model gave pretty good results compared to other models in gender prediction.
+For classification, we prefer probabilities between 0 and 1, so we wrap the the equation into the logistic function. This forces the output to assume only values between 0 and 1. This model gave pretty good results compared to other models in gender prediction.
 
 # Run code
       python celeb_profiling.py
