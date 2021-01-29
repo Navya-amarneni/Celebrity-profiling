@@ -2,9 +2,9 @@
 
    The Celebrity Profiling task this year is to predict four traits of a celebrity from their social media communication. 
 
- degree of fame
- occupation
- age
+* degree of fame
+* occupation
+* age
 * gender
 
    The social media communication is given as the teaser messages from past tweets. The goal is to develop a piece of software which predicts celebrity traits from the teaser history.
@@ -35,4 +35,20 @@ The following values are possible for each of the traits:
             science, professional, religious}
     birthyear   := {1940, ..., 2012}
     gender      := {male, female, nonbinary}
+    
+  
+  # Logistic regression model
+  
+  This model uses TF-IDF matrix along with logistic regression classifier for multi-class and binary classification tasks and obtained good accuracy.
+  
+   Instead of fitting a straight line or hyperplane, the logistic regression model uses the logistic function to squeeze the output of a linear equation between 0 and 1. The logistic function is defined as:
+
+
+ 
+
+And it looks like this:
+
+
+The logistic function. It outputs numbers between 0 and 1. At input 0, it outputs 0.5.
+
             
