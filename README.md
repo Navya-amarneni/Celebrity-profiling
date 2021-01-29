@@ -2,10 +2,10 @@
 
    The Celebrity Profiling task this year is to predict four traits of a celebrity from their social media communication. 
 
-# degree of fame
-# occupation
-# age
-# gender
+ degree of fame
+ occupation
+ age
+* gender
 
    The social media communication is given as the teaser messages from past tweets. The goal is to develop a piece of software which predicts celebrity traits from the teaser history.
 
