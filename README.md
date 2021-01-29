@@ -1,6 +1,6 @@
 # Celebrity-profiling
 
-   The Celebrity Profiling task is to predict four traits of a celebrity from their social media communication.I worked on logistic regression
+   The Celebrity Profiling task is to predict four traits of a celebrity from their social media communication. I worked on logistic regression
 model,Naives bayes ,lstm classifier model to classify the celebrities on the basis of following features.
  
 
