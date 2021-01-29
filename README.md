@@ -36,21 +36,32 @@ The following values are possible for each of the traits:
     birthyear   := {1940, ..., 2012}
     gender      := {male, female, nonbinary}
     
+   We use 3 methods to distinguish the features
+   
+   *Logistic Regression model
+   *Naive Bayes model
+   *LSTM classifier model
+  
+  we take the accurae one out of these models for  each of the trait prediction.
   
   # Logistic regression model
   
   This model uses TF-IDF matrix along with logistic regression classifier for multi-class and binary classification tasks and obtained good accuracy.
   
-   Instead of fitting a straight line or hyperplane, the logistic regression model uses the logistic function to squeeze the output of a linear equation between 0 and 1. The logistic function is defined as:
+   Logistic regression is the best model for classification problem.Instead of fitting a straight line or hyperplane, the logistic regression model uses the logistic function to squeeze the output of a linear equation between 0 and 1. The logistic function is defined as:
+   
+   logistic(n) = 1 / 1 + exp(-n)
 
-
- 
 
 And it looks like this:
 
 ![Alt text](https://saedsayad.com/images/LogReg_1.png)
 
 
-The logistic function. It outputs numbers between 0 and 1. At input 0, it outputs 0.5.
+The logistic function.For classification, we prefer probabilities between 0 and 1, so we wrap the the equation into the logistic function. This forces the output to assume only values between 0 and 1. This model gave pretty good results compared to other models in gender prediction.
+
+# Run code
+      python celeb_profiling.py
+      
 
             
