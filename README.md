@@ -48,7 +48,7 @@ The following values are possible for each of the traits:
 
 And it looks like this:
 
-![Alt text](https://christophm.github.io/interpretable-ml-book/images/logistic-function-1.png)
+![Alt text](https://saedsayad.com/images/LogReg_1.png)
 
 
 The logistic function. It outputs numbers between 0 and 1. At input 0, it outputs 0.5.
