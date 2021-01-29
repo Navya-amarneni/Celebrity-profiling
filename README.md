@@ -64,4 +64,22 @@ The logistic function.For classification, we prefer probabilities between 0 and 
       python celeb_profiling.py
       
 
-            
+# Naive Bayes model
+
+Naive Bayes is a very simple but powerful algorithm used for prediction as well as classification. It follows the principle of “Conditional Probability".
+
+We use this formula to calculate the probability of an event occuring.
+
+![Alt text](https://analyticsprofile.com/wp-content/uploads/2019/06/1-1.jpg)
+
+# Training and Testing
+      from sklearn.naive_bayes import MultinomialNB 
+      model = MultinomialNB().fit(X_train, y_train)  #Train the model on the training data 
+      y_pred = model.predict(X_test) #Test the model on the testing data and comparing the result with the actual target
+      
+This gave much powerful results in Birth Year prediction.This model is best fit for multi-class problems.
+
+
+# Reference
+
+https://pan.webis.de/clef19/pan19-web/celebrity-profiling.html
