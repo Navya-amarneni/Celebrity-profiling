@@ -81,6 +81,28 @@ We use this formula to calculate the probability of an event occuring.
       
 This gave much powerful results in Birth Year prediction.This model is best fit for multi-class problems.
 
+# LSTM Classifier
+
+
+![Alt text](http://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png)
+These are the layers of my lstm model for gender prediction.
+
+* Layer (type) 
+* inputs (InputLayer) 
+* embedding_2 (Embedding) 
+* lstm_2 (LSTM) 
+* FC1 (Dense) 
+* activation_4 (Activation)
+* out_layer (Dense) 
+* activation_5 (Activation)
+
+
+For gender prediction, i used Embedding layer and  activation layer of relu and sigmoid functions.Since it is a binary classification I used binary_crossentropy loss method with adam optimizer.
+
+For,occupation,fame and birthyear prediction after tokenizing i applied lstm model(with some layers modified) to it with ‘softmax’ activation.
+
+Since,all these are multi-class classification methods I used categorical_crossentrophy loss method with adam optimizer.
+
 
 # Reference
 
