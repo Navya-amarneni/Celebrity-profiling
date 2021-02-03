@@ -103,6 +103,17 @@ For,occupation,fame and birthyear prediction after tokenizing i applied lstm mod
 
 Since,all these are multi-class classification methods I used categorical_crossentrophy loss method with adam optimizer.
 
+# Results and Analysis
+
+Logistic Regression model is the first basic model i used for classification.I tried using naïve bayes classifier which also gave good results.Lstm model gave the following results on gender prediction and worked quite better than many other models. 
+  
+                        LOG REG         NB           LSTM
+      Gender            82.50          72.38       77.30
+      Occupation        68.94          45.49       69.36
+      Fame              66.54          74.95       75.08
+      Birth Year        51.47          50.07       51.60    
+      
+
 
 # Reference
 
